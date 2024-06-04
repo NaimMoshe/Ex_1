@@ -1,0 +1,28 @@
+/* External CSS for setting font family */
+body {
+    font-family: "Arial", sans-serif; /* Example favorite font family */
+}
+
+#heading {
+    background-color: lightgreen; /* Background color for the element with id "heading" */
+}
+
+.paragraph {
+    background-color: lightyellow; /* Background color for elements with class "paragraph" */
+}
+
+table {
+    background-color: rgb(89, 144, 186); /* Background color for all tables */
+    border: none;
+    border-radius: 2px;
+}
+
+
+td {
+    background-color: lightblue !important; /* Background color for all table cells */
+}
+
+
+#liitem {
+    background-color: lightgray; /* Background color for the element with id "liitem" */
+}

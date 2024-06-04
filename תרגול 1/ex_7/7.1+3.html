@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Centering Flex Items</title>
+    <style>
+        .flex-container :hover {
+            display: flex;            
+            flex-direction: column;
+            justify-content: space-evenly;
+            border: 1px solid black;
+            height: 45px;
+            /* width: 23px; */
+
+        }
+
+        .flex-item  {
+            padding: 10px;
+            background-color: rgb(32, 100, 123);
+            padding-left: 50%;
+        }
+        
+        .flex-item:last-child {
+            flex: 1;
+            background-color: lightcoral;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!--naim moshe 315852269-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mizzi-net Registration</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img src="path/to/logo.png" alt="Mizzi-net Logo" class="logo">
+        <p class="description">Join the Mizzi-net customer club for exclusive deals and offers!</p>
+        <form id="registrationForm">
+            <div class="name-fields">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            </div>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <div id="emailError" class="error"></div>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <div id="passwordError" class="error"></div>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+            <div id="confirmPasswordError" class="error"></div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
